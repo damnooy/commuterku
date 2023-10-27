@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-image: url('/Kereta.jpeg') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  min-height: 100vh !important;
+  background-attachment: fixed !important;
+  ;
+}
+
+.watermark {
+  font-family: 'Nunito', sans-serif;
+}
+
+.judul {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  color: #C70039;
+}
+
+.link {
+  font-size: 17px;
+  font-weight: bold;
+  background-color: whitesmoke;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 2px whitesmoke solid;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.jam {
+  margin-left: 10px;
+}
+
+.jadwal {
+  background-color: #C70039;
+  color: whitesmoke;
+}
+
+.tarif {
+  background-color: #C70039;
+  color: whitesmoke;
+}
+
+.rute {
+  background-color: #C70039;
+  color: whitesmoke;
+}
+
+.link:hover {
+  background-color: #C70039;
+  color: whitesmoke;
+}
+
+.tabel {
+  background-color: #C70039;
+  color: whitesmoke;
+  display: block;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;  
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  background-color: #C70039;
+  border: 2px #C70039 solid;
+  border-radius: 10px;
+  padding: 4px;
+  color: whitesmoke;
+  font-weight: bold;
+}   
+
+.hasil {
+  margin-right: 10px;
+}
+
+.logo-kereta {
+  color: black;
+  font-size: 40px;
+  padding-left: 10px;
+}
+
+.no-kereta {
+  color: black;
+}
+
+.jurusan {
+  color: #C70039;
+}
+
+.info {
+  margin: 0%;
+}
+
+.kereta {
+  border-radius: 10px;
+  padding: 8px;
+}
